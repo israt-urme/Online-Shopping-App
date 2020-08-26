@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/app_reg"
+        android:layout_width="350dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginRight="180dp"
+        android:src="@drawable/supermarket"
+        />
+
+    <TextView
+        android:id="@+id/title3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:fontFamily="@font/aclonica"
+        android:text="Compras BD"
+        android:textSize="25sp"
+        android:textColor="#f5e042"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentRight="true" />
+
+    <EditText
+        android:id="@+id/reg_input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/app_reg"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:hint="Name"
+        android:inputType="text"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/reg_input_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_input_name"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/reg_input_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_input_number"
+        android:background="@drawable/input_design"
+        android:padding="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="6dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ffffff"
+        android:textColorHint="#ffffff"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        />
+
+    <Button
+        android:id="@+id/reg_button"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reg_input_password"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/buttons"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="SIGN IN"
+        android:textColor="@android:color/black"
+        />
+
+</RelativeLayout>

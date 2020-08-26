@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Category.CategoryListActivity"
+    android:background="#ebebf2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:id="@+id/rc1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/arrow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_keyboard_backspace_black_24dp"
+                android:padding="15dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Categories"
+            android:textColor="#141414"
+            android:fontFamily="casual"
+            android:padding="10dp"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/round_bk2"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/men_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Men"
+                    android:background="#00000000"
+                    android:textSize="25sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    />
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/wedding"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/round_bk5"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/women_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Women"
+                    android:background="#00000000"
+                    android:textSize="25sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    />
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/hijab"
+                />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/buttons1"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/kids_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kids"
+                    android:background="#00000000"
+                    android:textSize="25sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    />
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/dress"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/buttons"
+                android:layout_margin="20dp">
+
+                <Button
+                    android:id="@+id/shoe_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Shoes"
+                    android:background="#00000000"
+                    android:textSize="25sp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="20dp"
+                    />
+
+            </RelativeLayout>
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_margin="-25dp"
+                android:src="@drawable/shoe_c"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>

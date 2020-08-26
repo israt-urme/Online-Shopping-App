@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rc4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_design"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/order_pr_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order Date"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/number_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivered To: "
+            android:layout_below="@+id/order_pr_date"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/order_pr_number"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number "
+            android:layout_below="@+id/order_pr_date"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/number_holder"
+            />
+
+        <TextView
+            android:id="@+id/price_holder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Cost: "
+            android:layout_below="@+id/number_holder"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/order_pr_price"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:text="Phone Number "
+            android:layout_below="@+id/number_holder"
+            android:textColor="@android:color/black"
+            android:textSize="14dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/price_holder"
+            />
+
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
